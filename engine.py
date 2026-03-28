@@ -1,8 +1,8 @@
 import torch
 from typing import Tuple
 
-from recap_folder.helper_funcs import *
-from recap_folder.model_build import CycleGANGenerator, CycleGANDiscriminator
+from helper_funcs import *
+from model_build import CycleGANGenerator, CycleGANDiscriminator
 
 
 def train_cyclegan(
