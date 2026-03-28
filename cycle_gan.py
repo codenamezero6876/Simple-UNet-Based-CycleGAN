@@ -8,10 +8,10 @@ from torch.utils.data import DataLoader
 import torchvision.transforms.v2 as transforms
 from PIL import Image
 
-from recap_folder.data_prep import ImageStyleDataset, init_cyclegan_transform
-from recap_folder.model_build import CycleGANGenerator, CycleGANDiscriminator
-from recap_folder.helper_funcs import *
-from recap_folder.engine import train_cyclegan
+from data_prep import ImageStyleDataset, init_cyclegan_transform
+from model_build import CycleGANGenerator, CycleGANDiscriminator
+from helper_funcs import *
+from engine import train_cyclegan
 
 
 
